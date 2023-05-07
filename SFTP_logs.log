@@ -1,0 +1,174 @@
+INFO:root:[2023-04-15 16:27:51.801830] SSHClient initialized
+DEBUG:paramiko.transport:starting thread (client mode): 0x501f3bb0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.8.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-sshlib KCH
+INFO:paramiko.transport:Connected (version 2.0, client sshlib)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group16-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes256-cbc', 'aes256-ctr', 'aes128-cbc', 'aes128-ctr'] server encrypt:['aes256-cbc', 'aes256-ctr', 'aes128-cbc', 'aes128-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['zlib', 'none'] server compress:['zlib', 'none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group16-sha512
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup16SHA512 specified hash_algo <built-in function openssl_sha512>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [158.228.129.229]:22: b'ca462b60b45089213d90f0bdcba604d9'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'EFT Login'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/PROD/export/ROS11 MFD2023-04-15.xml')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/PROD/export/ROS11 MFD2023-04-15.xml', 'rb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/PROD/export/ROS11 MFD2023-04-15.xml', 'rb') -> 31
+DEBUG:paramiko.transport.sftp:[chan 0] close(31)
+INFO:paramiko.transport.sftp:[chan 0] sftp session closed.
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+INFO:root:[2023-04-15 16:27:51.801830] :: FILE DOWNLOAD COMPLETE:: ROS11 MFD2023-04-15.xml
+INFO:root:[2023-04-15 16:28:10.583678] SSHClient initialized
+DEBUG:paramiko.transport:starting thread (client mode): 0x8048bbb0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.8.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-sshlib KCH
+INFO:paramiko.transport:Connected (version 2.0, client sshlib)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group16-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes256-cbc', 'aes256-ctr', 'aes128-cbc', 'aes128-ctr'] server encrypt:['aes256-cbc', 'aes256-ctr', 'aes128-cbc', 'aes128-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['zlib', 'none'] server compress:['zlib', 'none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group16-sha512
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup16SHA512 specified hash_algo <built-in function openssl_sha512>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [158.228.129.229]:22: b'ca462b60b45089213d90f0bdcba604d9'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'EFT Login'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/PROD/export/Full Roster Export Hourly.xml')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/PROD/export/Full Roster Export Hourly.xml', 'rb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/PROD/export/Full Roster Export Hourly.xml', 'rb') -> 31
+DEBUG:paramiko.transport.sftp:[chan 0] close(31)
+INFO:paramiko.transport.sftp:[chan 0] sftp session closed.
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+INFO:root:[2023-04-15 16:28:10.583678] :: FILE DOWNLOAD COMPLETE:: Full Roster Export Hourly.xml
+INFO:root:[2023-04-17 06:44:33.314835] SSHClient initialized
+DEBUG:paramiko.transport:starting thread (client mode): 0x68143bb0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.8.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-sshlib KCH
+INFO:paramiko.transport:Connected (version 2.0, client sshlib)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group16-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes256-cbc', 'aes256-ctr', 'aes128-cbc', 'aes128-ctr'] server encrypt:['aes256-cbc', 'aes256-ctr', 'aes128-cbc', 'aes128-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['zlib', 'none'] server compress:['zlib', 'none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group16-sha512
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup16SHA512 specified hash_algo <built-in function openssl_sha512>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [158.228.129.229]:22: b'ca462b60b45089213d90f0bdcba604d9'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'EFT Login'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/PROD/export/Full Roster Export Hourly.xml')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/PROD/export/Full Roster Export Hourly.xml', 'rb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/PROD/export/Full Roster Export Hourly.xml', 'rb') -> 31
+DEBUG:paramiko.transport.sftp:[chan 0] close(31)
+INFO:paramiko.transport.sftp:[chan 0] sftp session closed.
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+INFO:root:[2023-04-17 06:44:33.314835] :: FILE DOWNLOAD COMPLETE:: Full Roster Export Hourly.xml
+INFO:root:[2023-04-17 06:44:47.161591] SSHClient initialized
+DEBUG:paramiko.transport:starting thread (client mode): 0x385dbbb0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.8.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-sshlib KCH
+INFO:paramiko.transport:Connected (version 2.0, client sshlib)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group16-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes256-cbc', 'aes256-ctr', 'aes128-cbc', 'aes128-ctr'] server encrypt:['aes256-cbc', 'aes256-ctr', 'aes128-cbc', 'aes128-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['zlib', 'none'] server compress:['zlib', 'none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group16-sha512
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup16SHA512 specified hash_algo <built-in function openssl_sha512>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [158.228.129.229]:22: b'ca462b60b45089213d90f0bdcba604d9'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'EFT Login'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/PROD/export/ROS11 MFD2023-04-16.xml')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/PROD/export/ROS11 MFD2023-04-16.xml', 'rb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/PROD/export/ROS11 MFD2023-04-16.xml', 'rb') -> 31
+DEBUG:paramiko.transport.sftp:[chan 0] close(31)
+INFO:paramiko.transport.sftp:[chan 0] sftp session closed.
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+INFO:root:[2023-04-17 06:44:47.161591] :: FILE DOWNLOAD COMPLETE:: ROS11 MFD2023-04-16.xml
+INFO:root:[2023-04-17 10:12:41.033066] SSHClient initialized
+DEBUG:paramiko.transport:starting thread (client mode): 0x30a5bbb0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.8.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-sshlib KCH
+INFO:paramiko.transport:Connected (version 2.0, client sshlib)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group16-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes256-cbc', 'aes256-ctr', 'aes128-cbc', 'aes128-ctr'] server encrypt:['aes256-cbc', 'aes256-ctr', 'aes128-cbc', 'aes128-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['zlib', 'none'] server compress:['zlib', 'none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group16-sha512
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup16SHA512 specified hash_algo <built-in function openssl_sha512>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [158.228.129.229]:22: b'ca462b60b45089213d90f0bdcba604d9'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'EFT Login'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/PROD/export/ROS11 MFD2023-04-17.xml')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/PROD/export/ROS11 MFD2023-04-17.xml', 'rb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/PROD/export/ROS11 MFD2023-04-17.xml', 'rb') -> 31
+DEBUG:paramiko.transport.sftp:[chan 0] close(31)
+INFO:paramiko.transport.sftp:[chan 0] sftp session closed.
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+INFO:root:[2023-04-17 10:12:41.033066] :: FILE DOWNLOAD COMPLETE:: ROS11 MFD2023-04-17.xml
+INFO:root:[2023-04-17 10:12:54.004351] SSHClient initialized
+DEBUG:paramiko.transport:starting thread (client mode): 0x403dbbb0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.8.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-sshlib KCH
+INFO:paramiko.transport:Connected (version 2.0, client sshlib)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group16-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes256-cbc', 'aes256-ctr', 'aes128-cbc', 'aes128-ctr'] server encrypt:['aes256-cbc', 'aes256-ctr', 'aes128-cbc', 'aes128-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['zlib', 'none'] server compress:['zlib', 'none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group16-sha512
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup16SHA512 specified hash_algo <built-in function openssl_sha512>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [158.228.129.229]:22: b'ca462b60b45089213d90f0bdcba604d9'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'EFT Login'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/PROD/export/Full Roster Export Hourly.xml')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/PROD/export/Full Roster Export Hourly.xml', 'rb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/PROD/export/Full Roster Export Hourly.xml', 'rb') -> 31
+DEBUG:paramiko.transport.sftp:[chan 0] close(31)
+INFO:paramiko.transport.sftp:[chan 0] sftp session closed.
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+INFO:root:[2023-04-17 10:12:54.004351] :: FILE DOWNLOAD COMPLETE:: Full Roster Export Hourly.xml
